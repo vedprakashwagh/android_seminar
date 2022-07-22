@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android Seminar</string>
+    <string name="hardcoded_text_warning">This is hardcoded text in English</string>
 </resources>

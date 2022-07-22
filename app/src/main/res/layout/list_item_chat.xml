@@ -9,6 +9,7 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:background="@color/siddhesh"
+        android:src="@drawable/ic_launcher_foreground"
         />
     <LinearLayout
         android:layout_width="0dp"
@@ -20,9 +21,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Isabelle &amp; 5 others"
+            android:text="Vedprakash &amp; 5 others"
             android:textStyle="bold"
-            android:textColor="@android:color/holo_green_dark"
+            android:textColor="@color/gayatri"
             />
         <TextView
             android:layout_width="match_parent"
@@ -30,14 +31,4 @@
             android:text="Tap to join"
             />
     </LinearLayout>
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:fabSize="mini"
-        android:src="@android:drawable/sym_call_incoming"
-        app:tint="@android:color/white"
-        app:backgroundTint="@android:color/holo_green_dark"
-        />
-
 </LinearLayout>

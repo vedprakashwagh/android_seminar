@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+        <include layout="@layout/list_item_chat"/>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_baseline_message_24"
+        app:tint="@android:color/white"
+        app:backgroundTint="@color/gayatri"
+        />
+
+
+</FrameLayout>
