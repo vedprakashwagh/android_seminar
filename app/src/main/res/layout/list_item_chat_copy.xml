@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/chat_image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@color/siddhesh"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/chat_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Vedprakash &amp; 5 others"
+        android:textStyle="bold"
+        android:textColor="@color/gayatri"
+        app:layout_constraintStart_toEndOf="@id/chat_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/chat_description"
+        />
+
+    <TextView
+        android:id="@+id/chat_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tap to join"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/chat_image"
+        app:layout_constraintTop_toBottomOf="@id/chat_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
