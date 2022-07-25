@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.2465" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/calculator.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/chat_screen.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/list_item_chat.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/list_item_chat_copy.xml" value="0.2717917675544794" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2465" />
       </map>
     </option>
   </component>
